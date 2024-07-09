@@ -1,0 +1,5 @@
+# Ignore artifacts:
+build
+coveragepnpm add --save-dev husky lint-staged
+        npx husky init
+        node --eval "fs.writeFileSync('.husky/pre-commit','pnpm exec lint-staged\n')"
