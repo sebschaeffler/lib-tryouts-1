@@ -5,7 +5,6 @@
 # next.js
 /.next
 /out
-/build
 
 # production
 /build
@@ -22,6 +21,9 @@
 
 # vercel
 .vercel
+
+# Storybook
+storybook-static
 
 # yarn
 .yarn/cache
