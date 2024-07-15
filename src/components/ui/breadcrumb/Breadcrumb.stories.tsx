@@ -8,13 +8,13 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@/components/ui/Breadcrumb";
+} from "@/components/ui/breadcrumb/Breadcrumb";
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from "@/components/ui/DropdownMenu";
+} from "@/components/ui/dropdown/DropdownMenu";
 import Link from "next/link";
 import {
   Drawer,
@@ -25,8 +25,8 @@ import {
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger,
-} from "@/components/ui/Drawer";
-import { Button } from "@/components/ui/Button";
+} from "@/components/ui/drawer/Drawer";
+import { Button } from "@/components/ui/button/Button";
 import React from "react";
 
 const meta = {
